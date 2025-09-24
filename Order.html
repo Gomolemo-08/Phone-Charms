@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Phone Charms Vendor - Online Vendor</title>
+</head>
+<body>
+    <header>
+	    <h1>Order Charms from Phone Charms</h1>
+		<nav>
+		    <ul>
+			    <li><a href="index.html">Home</a></li>
+				<li><a href="order.html">Order</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+	    <section>
+		    <h2>Select Charms</h2>
+			<table>
+			    <tr>
+				    <th>Item Name</th>
+					<th>Image</th>
+					<th>Description</th>
+					<th>Price</th>
+					<th>Quantity</th>
+				</tr>
+				<tr>
+				    <td>Blue Cover Charm</td>
+					<td><img src="blue cover.jpg"></td>
+					<td>White and green mixture of luck</td>
+					<td>R120.00</td>
+					<td><input type="number" min="0" max="10" value="0"></td>
+				</tr>
+				<tr>
+				    <td>Brown love Charms</td>
+					<td><img src="brown love charms.jpg"></td>
+					<td>Brown loves with a touch of pink</td>
+					<td>R189.99</td>
+					<td><input type="number" min="0" max="10" value="0"></td>
+				</tr>
+				<tr>
+				    <td>Love Charms</td>
+					<td><img src="love charms.jpg"></td>
+					<td>Back and white charm with a touch of blue</td>
+					<td>R94.99</td>
+					<td><input type="number" min="0" max="10" value="0"></td>
+				</tr>
+				<tr>
+				    <td>Phone Charm</td>
+					<td><img src="phone charms cover.jpg"></td>
+					<td>Pink charm with a touch of yellow</td>
+					<td>R200.00</td>
+					<td><input type="number" min="0" max="10" value="0"></td>
+				</tr>
+			</table>
+		</section>
+		<section>
+		     <h2>Payment Information</h2>
+            <form action="process_payment.php" method="POST">
+                <label for="card-number">Card Number:</label>
+                <input type="text" id="card-number" name="card-number" required>
+                <label for="expiry">Expiry Date:</label>
+                <input type="text" id="expiry" name="expiry" required>
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required>
+                <button type="submit">Pay Now</button>
+            </form>
+        </section>
+	</main>
+	<footer>
+	    <p>&copy; 2023 Phone Charms Online Vendor</p>
+	</footer>
+</body>
+</html>
+			
+					
+					
